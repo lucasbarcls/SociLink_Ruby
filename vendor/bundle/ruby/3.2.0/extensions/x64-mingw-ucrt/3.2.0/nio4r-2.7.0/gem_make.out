@@ -1,0 +1,18 @@
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-59a32q sitelibdir\=./.gem.20231203-7232-59a32q clean
+make: *** Sem regra para processar o alvo 'clean' .  Pare.
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-59a32q sitelibdir\=./.gem.20231203-7232-59a32q
+make: Nada a ser feito para 'all'. 
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-59a32q sitelibdir\=./.gem.20231203-7232-59a32q install
+make: Nada a ser feito para 'install'. 
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-59a32q sitelibdir\=./.gem.20231203-7232-59a32q clean
+make: *** Sem regra para processar o alvo 'clean' .  Pare.

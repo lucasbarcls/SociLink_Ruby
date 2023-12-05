@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+
+:root{
+  --primary-color: #080520;
+  --white-color: #fff;
+  --light-gray-color: #eee;
+  --secondary-color: crimson;
+  --gap: 3rem;
+}/*crio variáveis para serem utilizadas no decorrer do código*/
+
+* {
+     margin: 0;
+     padding: 0;
+   }
+   
+   body {
+     font-family: Montserrat;
+     color: #333;
+   }
+   
+   nav {
+     padding: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   
+   h1 {
+     color: #c00;
+     font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+     display: inline;
+   }
+   
+   img {
+     width: 100%;
+   }
+   
+   .overflow-hidden {
+     overflow: hidden;
+   }
+   
+   .logo-pinterest {
+     display: flex;
+     align-items: center;
+     width: fit-content;
+     column-gap: 4px;
+   }
+   
+   .link-nav {
+     font-size: 16px;
+     font-weight: 600;
+     color: #333;
+     text-decoration: none;
+   }
+   
+   .link-nav:hover {
+     text-decoration: underline;
+   }
+   
+   .restante-nav {
+     display: flex;
+     align-items: center;
+     column-gap: 20px;
+     width: fit-content;
+   }
+   
+   .container-login {
+     padding-bottom: 100px;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+   
+   .bg-imagem-pinterest {
+     width: 100%;
+     position: flex;
+     top: 10vh;
+     opacity: 0.8;
+   }
+   
+   .container {
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+   }
+   
+   .container-popup {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.6);
+     display: flex;
+   }
+   
+   .popup {
+     /* display: none !important; */
+     width: 400px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 20px;
+     padding: 35px;
+     border-radius: 32px;
+     background-color: #fff;
+   }
+   
+   .div-input {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 5px;
+   }
+   
+   .div-botao {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 5px;
+     margin-top: 10px;
+   }
+   
+   .label {
+     margin-right: auto;
+     margin-left: 15px;
+     font-size: 15px;
+   }
+   
+   .input {
+     width: 100%;
+     font-size: 16px;
+     padding: 15px;
+     border: 2px solid #cdcdcd;
+     border-radius: 20px;
+     box-sizing: border-box;
+     font-family: Montserrat;
+   }
+   
+   .botao-login {
+     border-radius: 25px;
+     padding: 15px 20px;
+     width: 100%;
+     border: 0;
+     text-transform: uppercase;
+     font-weight: bold;
+     cursor: pointer;
+     background-color: #e60023;
+     color: #fff;
+   }
+   
+   .botao-login:hover {
+     background-color: #d50c22;
+   }
+   
+   .link-criarconta {
+     color: #333;
+     text-decoration: none;
+   }
+   
+   .link-criarconta:hover {
+     color: #333;
+     text-decoration: underline;
+   }
+   
+   .botao-perfil a {
+     background-color: #333;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 25px;
+   }
+   
+   .botao-perfil a:hover {
+     background-color: #777;
+     text-decoration: none;
+   }
+   
+   .conteudo {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     width: 100%;
+     max-width: 100vw;
+     column-gap: 10px;
+     row-gap: 30px;
+     padding: 15px;
+     box-sizing: border-box;
+   }
+   
+   .bloco-imagem img {
+     border-radius: 20px;
+     height: 40vh;
+     object-fit: cover;
+   }
+   
+   .bloco-add-img {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 10px;
+   }
+   
+   .botao-arquivo {
+     padding: 5px 10px;
+     border-radius: 15px;
+     border: 0;
+     background-color: #333;
+     color: #fff;
+     font-size: 16px;
+     cursor: pointer;
+   }
+   
+   .bloco-arquivo {
+     background-color: #eee;
+     padding: 10px 20px;
+     border-radius: 55px;
+     display: flex;
+     align-items: center;
+     column-gap: 10px;
+   }
+   
+   .input-arquivo {
+     display: none;
+   }
+   
+   #imagem-arquivo {
+     display: none;
+   }
+   
+   #imagem-arquivo.visivel {
+     display: inline-block;
+   }
+   
+   .bloco-add-img .botao-login {
+     width: auto;
+   }
+   
+   .bloco-input-botao {
+     display: flex;
+     column-gap: 20px;
+   }
+.nav-link{
+  margin-left: 2rem;
+  font-size: 20px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link2{
+  margin-left: 1rem;
+}
+.nav-link3{
+  margin-left: 1200px;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  display: inline-block; /* Garante que o link não ocupe toda a largura */
+  /* Outros estilos do seu link */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* ajuste conforme necessário para a posição desejada */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza no início */
+  width: 0; /* Começa sem largura */
+  height: 0.2rem; /* Altura do traço */
+  background: var(--secondary-color); /* A cor do seu traço */
+  transition: width 300ms ease-in-out; /* Animação suave */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Expande a largura no hover */
+  left: 0; /* Começa do início do link */
+  transform: translateX(0%); /* Sem translação */
+}
+
+.tam{
+  font-size: 24px;
+  color: var(--secondary-color)
+}
+
+
+.navbar-brand {
+  font-family: 'Roboto Slab', serif; /* Esta é a fonte Roboto Slab */
+  font-size: 1.8rem; /* Ajuste o tamanho conforme necessário */
+  font-weight: 400; /* 400 para peso normal, 700 para negrito */
+  color: #2a2a2a; /* Cor do texto */
+  text-transform: none; /* Nenhuma transformação de texto */
+  transition: color 0.3s ease; /* Transição suave para efeitos de hover */
+}
+
+.navbar-brand:hover {
+  color: var(--secondary-color); /* Cor de hover */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+}

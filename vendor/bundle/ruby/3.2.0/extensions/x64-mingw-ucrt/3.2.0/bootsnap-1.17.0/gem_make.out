@@ -1,0 +1,19 @@
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-3r2ndc sitelibdir\=./.gem.20231203-7232-3r2ndc clean
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-3r2ndc sitelibdir\=./.gem.20231203-7232-3r2ndc
+generating bootsnap-x64-mingw-ucrt.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-3r2ndc sitelibdir\=./.gem.20231203-7232-3r2ndc install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20231203-7232-3r2ndc/bootsnap
+
+current directory: C:/Users/Lucas/Documents/ling-de-prog/SociLink_Ruby/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231203-7232-3r2ndc sitelibdir\=./.gem.20231203-7232-3r2ndc clean
